@@ -81,7 +81,7 @@ The test *fails*! We're expecting some actual size 1 to match 2, on line 20. For
 some reason, we're only getting back *one* `Dinosaur`... even though we passed *2*
 as the argument.
 
-Open `EnlosureBuilder` and scroll down to `addDinosaur()`. Ah! There's a *bug* in
+Open `EnlosureBuilderService` and scroll down to `addDinosaurs()`. Ah! There's a *bug* in
 my code already! The `$numberOfDinosaurs` argument is not used: we always add just
 *one* dinosaur.
 
