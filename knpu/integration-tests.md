@@ -83,7 +83,7 @@ But before we do *anything* else... there's a surprise! Find your terminal and r
 phpunit with `--filter`. Copy the method's name and paste it:
 
 ```terminal-silent
-./vendor/bin/phpunit --filter testItBuildsEnclosureWithTheDefaultSpecification
+./vendor/bin/phpunit --filter testItBuildsEnclosureWithDefaultSpecification
 ```
 
 ## Fetching Private Services
