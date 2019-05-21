@@ -125,7 +125,7 @@ Try it! Back in the test, inside `get()`, add `test.` and *then* the class name.
 Move over and try the test again!
 
 ```terminal-silent
-./vendor/bin/phpunit --filter testItBuildsEnclosureWithTheDefaultSpecification
+./vendor/bin/phpunit --filter testItBuildsEnclosureWithDefaultSpecification
 ```
 
 Ha! It works! It shows "Risky" because we don't have any assertions. But it did
@@ -164,13 +164,13 @@ thanks to the default arguments in `buildEnclosure()` - there should be 3.
 Ok team! We're done! Try the test!
 
 ```terminal-silent
-./vendor/bin/phpunit --filter testItBuildsEnclosureWithTheDefaultSpecification
+./vendor/bin/phpunit --filter testItBuildsEnclosureWithDefaultSpecification
 ```
 
 It works! We're geniuses! Nothing could ever go wrong! Run the test again:
 
 ```terminal-silent
-./vendor/bin/phpunit --filter testItBuildsEnclosureWithTheDefaultSpecification
+./vendor/bin/phpunit --filter testItBuildsEnclosureWithDefaultSpecification
 ```
 
 It fails! Suddenly there are *2* security systems in the database! And each time
